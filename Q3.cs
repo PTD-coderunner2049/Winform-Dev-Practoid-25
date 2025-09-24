@@ -15,6 +15,7 @@ namespace Practoid
         public Q3()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
 
             exitBtn.Click += (s, e) => { this.Close(); };
 

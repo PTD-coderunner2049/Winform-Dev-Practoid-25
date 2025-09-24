@@ -10,6 +10,7 @@ namespace Practoid
         public Q2()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
 
             aRadioButton.Checked = true;
             rCheckBox.Checked = true;

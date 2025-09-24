@@ -8,6 +8,7 @@ namespace Practoid
         public Q1()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
 
             rAddition.Checked = true;
             exitBn.Click += (s, e) => { this.Close(); };

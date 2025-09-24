@@ -66,6 +66,12 @@
     <Compile Include="Q3.Designer.cs">
       <DependentUpon>Q3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Q4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Q4.Designer.cs">
+      <DependentUpon>Q4.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Q1.resx">
       <DependentUpon>Q1.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +89,9 @@
     </Compile>
     <EmbeddedResource Include="Q3.resx">
       <DependentUpon>Q3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Q4.resx">
+      <DependentUpon>Q4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
