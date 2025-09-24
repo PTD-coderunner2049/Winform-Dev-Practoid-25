@@ -13,9 +13,9 @@ namespace Practoid
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Q1());
-            //Application.Run(new Q2());
-            //Application.Run(new Q3());
+            Application.Run(new Q1());
+            Application.Run(new Q2());
+            Application.Run(new Q3());
             Application.Run(new Q4());
         }
     }
